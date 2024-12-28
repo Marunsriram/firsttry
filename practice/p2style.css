@@ -1,10 +1,57 @@
- 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 nav{
-background-color: black;
-color: white;
-display: inline;
-}
-h1{
     background-color: black;
+    color: white;
+    padding: 30px;
+
 }
+ul,li,h1{
+    display: inline;
+            }    
+ul{
+               margin-left: 65%;
+            }
+li{
+    color: grey;
+}
+ li:hover{
+                color: white;
+                cursor: pointer;
+            }
+
+ input{
+                
+               width: 60%;
+                padding: 15px;
+               }
+.searcher{
+    padding: 50px;
+    text-align: center;;
+}
+
+.box1{
+    text-align: center;
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+} 
+.box1:hover{
+    background-color: black;
+    color: white;
+}
+.about{
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
